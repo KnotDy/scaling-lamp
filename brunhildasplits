@@ -1,0 +1,84 @@
+import time
+
+def w():
+    x = " "
+    print(x*10)
+def brunhildasplits():
+    global a
+    input("press any key to start.")
+    print(n1)
+    w()
+    time.sleep(30)
+    print(n3)
+    w()
+    time.sleep(30)
+    print(n4)
+    w()
+    time.sleep(20)
+    print(n5)
+    print(n51)
+    w()
+    time.sleep(20)
+    print(n6)
+    print(n61)
+    w()
+    time.sleep(25)
+    print(n7)
+    w()
+    time.sleep(20)
+    print(n8)
+    print(n81)
+    time.sleep(20)
+    w()
+    input(str(n9))
+    print(n10)
+    w()
+    time.sleep(15)
+    print(n11)
+    w()
+    time.sleep(30)
+    print(n12)
+    w()
+    time.sleep(15)
+    print(n13)
+    w()
+    time.sleep(10)
+    print(n14)
+    w()
+    time.sleep(20)
+    a = input("Did you beat her? Yes/No")
+def finalcheck():
+    if str(a) == 3:
+        return
+    else:
+        brunhildasplits()
+
+
+
+
+
+
+
+## def text
+
+n1 = "Scorching Blast. She'll use a breath, dash, swipe, dive. bait to the top of arena."
+n3 = "Volcanic Blitz. Pay attention to who has the first cano.  dash, dive, dash. "
+n4 = "Chaser and searing pillar combo. Spread out and then group up. Keep DPS up"
+n5 = "Breath attack. Bait should take this one, grab it otherwise."
+n51 = "Meteors and dive immediately after."
+n6 = "Regular Muspellheim."
+n61 = "then pillar, spread out for chaser."
+n7 = "HBH will dash, swipe, then fire meteors. Keep up DPS and dodge when needed"
+n8 = "Another dive attack. Bait her as lance then return to dps"
+n81 = "dashback. bait away from group"
+n9 = "You should have entered break state at this point. Press enter to continue when she gets up"
+n10 = "Another breath attack. Prepare for volcanos"
+n11 = "Volcanic Blitz 2. Same as before, except no breath to bait. HBH will swipe, dashback, dash, dash."
+n12 = "Flame chaser and pillar."
+n13 = "Breath attack. Lay on as much DPS as possible."
+n14 = "Grand Muspellheim. As soon as chaser and floor disappear, make or break time"
+n15 = "Final pillar, have someone tank and DPS as much as possible"
+
+    
+brunhildasplits()
+finalcheck()
